@@ -501,9 +501,6 @@ scene("game", () => {
       }
     }
     knockback(player, e1, 3);
-
-    // console.log(e1.id)
-    // console.log(monster[-e1.id])
   });
 
   collides("monster", "skill_attack", (e1, e2) => {

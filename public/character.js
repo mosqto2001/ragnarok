@@ -91,10 +91,6 @@ async function doDamageCombo(e1, str, minimum, maximum, skill, amount, delay) {
       doDamage(e1, str, minimum, maximum);
     }
     await wait(delay);
-    // collides(enemy, skill, (e1,e2) => {
-    //   console.log("Yes");
-    //   doDamage(e1,str,minimum,maximum);
-    // });
   }
 }
 
